@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ChatBot | Welcome page</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<script src="/socket.io/socket.io.js"></script>
+	</head>
+	<body>
+		<h1 class="page--title">Welcome to this ChatBot</h1>
+
+		<div class="container">
+			<div class="chat-box">
+				<ul class="messages"></ul>
+
+				<form class="form">
+					<button class="scroll-btn"></button>
+					<label for="input" class="form__label"></label>
+					<input
+						type="text"
+						placeholder="Type a message..."
+						class="form__input"
+						id="input"
+					/>
+					<button class="form__btn">send</button>
+				</form>
+			</div>
+
+			<button class="cta">+</button>
+		</div>
+
+		<script src="/js/index.js" type="module"></script>
+	</body>
+</html>

@@ -1,0 +1,120 @@
+[
+	{
+		"patterns": [
+			"your gender",
+			"your age",
+			"your sex",
+			"your shape",
+			"your height",
+			"your wife",
+			"your husband",
+			"your child",
+			"your children",
+			"do you have a wife",
+			"do you have a husband",
+			"do you have a child",
+			"do you have children",
+			"are you married",
+			"are you single",
+			"do you love"
+		],
+		"texts": [
+			"I'm sorry, but i can't answer that question",
+			"Please ask more relevant questions thank you."
+		]
+	},
+	{
+		"patterns": [
+			"your name",
+			"may i know you",
+			"who are you",
+			"name of yours"
+		],
+		"texts": [
+			"I'm the loan Bot, your assistant, please feel free to ask me any questions relating to this platform."
+		]
+	},
+	{
+		"patterns": ["hi", "xup", "hello", "what is up", "what's up"],
+		"texts": [
+			"Hello i'm the loan Bot, your assistant, please feel free to ask me any questions relating to this platform."
+		]
+	},
+	{
+		"patterns": ["how are you", "how do you"],
+		"texts": [
+			"I am great",
+			"I'm fine thank you, do you want me help you with anything?"
+		]
+	},
+	{
+		"patterns": ["your day"],
+		"texts": ["Fine thank you, do you want me help you with anything?"]
+	},
+	{
+		"patterns": [
+			"problem",
+			"loan",
+			"support",
+			"lost",
+			"issue",
+			"help",
+			"don't know",
+			"what question",
+			"confused",
+			"ok"
+		],
+		"texts": ["Is it ok i collect some more information about you?"],
+		"context": "start signup"
+	},
+	{
+		"patterns": [
+			"browsing",
+			"checking the website",
+			"exploring",
+			"still searching",
+			"i will do it myself",
+			"don't want your help",
+			"don't need your help",
+			"don't care for your help",
+			"no"
+		],
+		"texts": ["Ok feel free to report any problems, have a nice day."]
+	},
+	{
+		"patterns": ["bye", "later", "go away", "leave me"],
+		"texts": [
+			"Ok Bye, but please feel free to report any problems, have a nice day."
+		]
+	},
+	{
+		"patterns": ["thank", "appreciate"],
+		"texts": [
+			"You're welcome",
+			"It's my honor",
+			"You're welcome",
+			"It's my duty",
+			"You're welcome",
+			"Please don't mention"
+		]
+	},
+	{
+		"patterns": ["hate you"],
+		"texts": ["I'm deeply sorry for the inconvenience"]
+	},
+	{
+		"patterns": [
+			"love you",
+			"lay with me",
+			"private number",
+			"call me",
+			"sex you",
+			"fuck you"
+		],
+		"texts": ["Sorry have no response to that"]
+	},
+	{
+		"patterns": ["yes", "ok", "sure", "i want that", "why not", "no problem"],
+		"texts": ["Sorry have no response to that"]
+	}
+]
